@@ -18,6 +18,7 @@ export const Description = styled.p`
 
 export const ContainerPrice = styled.div`
   display: flex;
+  
   padding-top: 28px;
 `
 
