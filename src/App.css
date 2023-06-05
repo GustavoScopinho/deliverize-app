@@ -1,5 +1,17 @@
+:root{
+  --red-button:#D80000;
+  --red-primary: #ED3237;
+  --grey-text: rgba(78, 78, 78, 1);
+  --grey-text-2: rgba(101, 99, 99, 1);
+  --orange-price: rgba(220, 110, 5, 1);
+  --orange-price-small: rgba(240, 144, 53, 1);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto', sans-serif;
 }
