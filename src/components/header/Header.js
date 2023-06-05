@@ -27,20 +27,24 @@ export const Header = () => {
             <input type="text" name="" id="" placeholder='Busque por estabelecimento ou produtos' />
           </S.Li>
           <S.Li>
+           <S.Button>
             <S.BoxAccount>
-              <img src={AccountCircle} alt="" />
-            </S.BoxAccount>
-            <S.P>
-              Entrar
-            </S.P>
+                <img src={AccountCircle} alt="" />
+              </S.BoxAccount>
+              <S.P>
+                Entrar
+              </S.P>
+           </S.Button>
           </S.Li>
           <S.Li>
-           <S.BoxAccount>
-            <img src={ShopCart} alt="" />
-            </S.BoxAccount>
-            <S.P>
-                Carrinho
-            </S.P>
+           <S.Button>
+            <S.BoxAccount>
+              <img src={ShopCart} alt="" />
+              </S.BoxAccount>
+              <S.P>
+                  Carrinho
+              </S.P>
+           </S.Button>
           </S.Li>
         </S.Ul>
       </S.Nav>

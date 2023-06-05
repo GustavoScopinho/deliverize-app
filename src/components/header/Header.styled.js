@@ -111,3 +111,11 @@ export const BoxAccount = styled.span`
     padding-top: 4px;
   }
 `
+
+export const Button = styled.button`
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+`
