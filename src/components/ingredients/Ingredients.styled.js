@@ -6,6 +6,10 @@ export const Article = styled.article`
   padding: 32px;
   border: 1px solid var(--grey-text-2);
   border-radius: 8px;
+
+  @media (max-width: 600px) {
+      border: none;
+  }
 `
 
 export const BoxAddIngredients = styled.div`
@@ -50,7 +54,6 @@ export const Price = styled.p`
 export const ContainerButton = styled.div`
   display: flex;
   justify-content: end;
-
 `
 
 export const ContainerAdd = styled.div`
@@ -69,6 +72,5 @@ export const ButtonAdd = styled.button`
   font-weight: 500;
   border: none;
   cursor: pointer;
-  
 `
 

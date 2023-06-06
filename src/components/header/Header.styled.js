@@ -8,11 +8,22 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
 `
 
 export const Figure = styled.figure`
+  
   img {
     padding-left: 40px;
+  }
+  @media (max-width: 600px) {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    
+      img{
+        padding: 0;
+      }
   }
 `
 
@@ -34,6 +45,10 @@ export const Li = styled.li`
     height: 48px;
     display: flex;
     position: relative;
+
+    @media (max-width: 1100px) {
+      display: none;  
+  }
   }
 
   :nth-child(2) {
@@ -54,19 +69,30 @@ export const Li = styled.li`
        }
 
      }
+
+     @media (max-width: 1100px) {
+      display: none;  
+  }
   }
 
   :nth-child(3){
     display: flex;
     align-items: center;
    
-  
+    @media (max-width: 1100px) {
+      display: none;  
+  }
   }
   :last-child{
     display: flex;
     align-items: center;
     padding-right: 40px;
+
+    @media (max-width: 1100px) {
+      display: none;  
   }
+  }
+ 
 `
 
 export const Div = styled.div`

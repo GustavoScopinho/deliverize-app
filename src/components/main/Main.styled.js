@@ -4,16 +4,36 @@ export const Main = styled.main`
   width: 100%;
   
   display: flex;
+  
+
+  @media (max-width: 1000px) {
+      flex-direction: column;
+  }
+`
+export const Container = styled.div`
+  width: 100%;
+
+  @media (max-width: 1000px) {
+    display: flex;
+    justify-content: center;
+  }
 `
 
 export const SectionLeft = styled.section`
   width: 60%;
   height: 100%;
-  padding-top: 48px;
+  padding: 48px 0 0 66px;
 
   display: flex;
   justify-content: center;
-  align-items: center;
+
+  @media (max-width: 1200px) {
+    width: 50%;    
+  }
+  @media (max-width: 1100px) {
+      width: 100%;
+      padding: 16px 0;
+  }
 `
 
 export const SectionRight = styled.section`
@@ -23,4 +43,11 @@ export const SectionRight = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 1200px) {
+    width: 50%;    
+  }
+  @media (max-width: 1100px) {
+      width: 100%;
+  }
 `

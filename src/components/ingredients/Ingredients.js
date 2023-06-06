@@ -64,7 +64,6 @@ export const Ingredients = () => {
             Precisa de Talher?
             </S.Title>
           </S.BoxAddIngredients>
-
           <S.ContainerAdd>
             <ButtonQuantity width={'140px'} height={'40px'}/> 
             <S.ButtonAdd>

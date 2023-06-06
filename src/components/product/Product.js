@@ -6,7 +6,9 @@ export const Product = () => {
   return (
     <>
       <S.Figure>
-        <img src={BannerHamburguer} alt="" />
+        <S.ContainerImage>
+          <img src={BannerHamburguer} alt="" />
+        </S.ContainerImage>
         <S.Figcaption>
         Oferta Picanha Cheddar Bacon
         </S.Figcaption>
