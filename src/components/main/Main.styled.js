@@ -21,12 +21,10 @@ export const Container = styled.div`
 
 export const SectionLeft = styled.section`
   width: 60%;
-  height: 100%;
-  padding: 48px 0 0 66px;
-
+  padding: 60px 0 0 66px;
   display: flex;
-  justify-content: center;
 
+  
   @media (max-width: 1200px) {
     width: 50%;    
   }
@@ -38,7 +36,7 @@ export const SectionLeft = styled.section`
 
 export const SectionRight = styled.section`
   width: 40%;
-  padding-top: 24px;
+  padding-top: 40px;
 
   display: flex;
   justify-content: center;

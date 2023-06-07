@@ -7,7 +7,7 @@ import { useGetProductQuery } from '../../shared/features/api/product/productSli
 export const Product = () => {
 
   const {data, isLoading} = useGetProductQuery() 
- 
+
 
   return (
     <>
